@@ -1,0 +1,11 @@
+{
+  "title": "Cassava breeding and genotype-management workflow",
+  "upload_type": "software",
+  "version": "2.0.0",
+  "publication_date": "2026-11-19",
+  "creators": [{"name": "Nguyen, Trung Duc"}],
+  "description": "Python/R synthetic cassava breeding and selected-clone management programme, with replayable pilot outputs, source-linked workflow assessment and Supplementary Table S6 calculations.",
+  "license": "mit",
+  "access_right": "open",
+  "keywords": ["cassava", "plant breeding", "genomic prediction", "UAV phenotyping", "simulation"]
+}

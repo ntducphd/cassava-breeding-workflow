@@ -1,0 +1,320 @@
+[
+  {
+    "parameter": "study",
+    "value": "Cassava review companion: clonal breeding and management",
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "data_status",
+    "value": "SYNTHETIC_NOT_FIELD_OBSERVATIONS",
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "seed",
+    "value": 20261117,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "replicates",
+    "value": 8,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "cycles",
+    "value": 2,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "sites",
+    "value": 3,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "harvests",
+    "value": 3,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "field_replicates",
+    "value": 2,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "management_levels",
+    "value": 2,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "selection_fraction",
+    "value": 0.2,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "parent_count",
+    "value": 12,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.founders",
+    "value": 64,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.families",
+    "value": 16,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.progeny_per_family",
+    "value": 6,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.maize_pool_size",
+    "value": 12,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.sites_per_chr",
+    "value": 64,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.qtl_per_chr",
+    "value": 12,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.markers_per_chr",
+    "value": 24,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.ld_block_morgan",
+    "value": 0.08,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.mean_dominance_degree",
+    "value": 0.3,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "genetics.variance_dominance_degree",
+    "value": 0.1,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "phenotyping.sensor_noise_sd",
+    "value": 0.2,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "phenotyping.missing_probability",
+    "value": 0.08,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "phenotyping.residual_sd",
+    "value": 0.65,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "phenotyping.early_fraction_of_season",
+    "value": 0.45,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "management.training_fields",
+    "value": 600,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "management.test_fields",
+    "value": 1000,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "management.treatment_cost_yield_units",
+    "value": 0.3,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "management.nonresponse_rate",
+    "value": 0.25,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.species",
+    "value": "Manihot esculenta",
+    "status": "verified biological scope",
+    "evidence": "references/*_sources.json"
+  },
+  {
+    "parameter": "crops.cassava.chromosomes",
+    "value": 18,
+    "status": "verified biological scope",
+    "evidence": "references/*_sources.json"
+  },
+  {
+    "parameter": "crops.cassava.map_morgan",
+    "value": 1.0,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.product",
+    "value": "clonal candidate and additive parent index",
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.mean_yield",
+    "value": 28.0,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.yield_scale",
+    "value": 5.0,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.yield_unit",
+    "value": "t fresh roots per ha; synthetic",
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.quality_name",
+    "value": "root dry matter percent",
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.quality_mean",
+    "value": 33.0,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.quality_scale",
+    "value": 3.0,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.cycle_years_assumed",
+    "value": 5,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "crops.cassava.bearing_cohort_only",
+    "value": false,
+    "status": "synthetic design/implementation setting",
+    "evidence": "assumed, not estimated from corporate data"
+  },
+  {
+    "parameter": "trait_corA",
+    "value": "identity4",
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "trait_corDD",
+    "value": "identity4",
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "field_block_sd",
+    "value": 0.12,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "coffee_permanent_plot_sd",
+    "value": 0.12,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "quality_noise_sd",
+    "value": 0.25,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "disease_noise_sd",
+    "value": 0.05,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "management_response_proxy_noise_sd",
+    "value": 0.4,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "Ridge_alpha",
+    "value": 1.0,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "management_observation_noise_relative_to_yield_scale",
+    "value": 0.35,
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "field_yield_coefficients",
+    "value": {
+      "water_genetic_response": 0.3,
+      "genotype_N": 0.2,
+      "water": -0.8,
+      "N": 0.3,
+      "disease": -0.5
+    },
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  },
+  {
+    "parameter": "genetic_map_status",
+    "value": "synthetic; not calibrated from assembly bp",
+    "status": "synthetic hardcoded observation/model coefficient",
+    "evidence": "src/uavbreed/genetics.R or programme.py; docs/GENETIC_EQUATIONS.md"
+  }
+]

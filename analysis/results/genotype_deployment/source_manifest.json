@@ -1,0 +1,160 @@
+[
+  {
+    "role": "source_configuration",
+    "path": "analysis/results/validated_pilot/config_used.json",
+    "sha256": "f8fa0925296767c24224349531f683453dc37ea1bb0b14b0a09a48354033a5f2"
+  },
+  {
+    "role": "source_run_manifest",
+    "path": "analysis/results/validated_pilot/run_manifest.json",
+    "sha256": "39a470dda165088c694f2bc117143c8377e51f42ba5d17d88a9380b9256c9050"
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "8f38172bde73bd9bfdd1bb396a091b5b5785b670fd26c77112d0c27111593659",
+    "replicate": 0,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "d7103a41acb6b04cf2d4b50c4cb0356c145efb07c2b4ea294d511af1d2057fb9",
+    "replicate": 0,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "9971fed8f459b0f2a784f3a5d3b9a2f6cbb7b0f2dad1ce9d8cfdbd945f17dc33",
+    "replicate": 1,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "d0d7203bcaedc50dcd3dc1902199cfe82d5509d3dd633f93a9a9628d3a2d0661",
+    "replicate": 1,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "0923b6f0eebf9107037eaf1dcc6f7ab10461fd05b1f6e935f4e6129a51bd66cd",
+    "replicate": 2,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "26f1bdc65c11b6bb1398fd41b8e0ebe2ada764960a06e2a3cf67a7d28d978697",
+    "replicate": 2,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "f46a2f0427508c6b689df47d12454bd064a7b178bdffb9a80adc5b749015f0db",
+    "replicate": 3,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "b1a9dc19bc7bf9b2f9f41c5cb7599c4b4c68a16b7c45578f551ebda30638ecec",
+    "replicate": 3,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "810780d028cffb91430267b19e0d62c835103934cacd89dc885144d10e06f8d6",
+    "replicate": 4,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "6d749d6cbcf9a5c2241d7a5a40bddd3e859b925ffc42f09d8f495e815fdfc619",
+    "replicate": 4,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "a3a34daf371091cd0906f7fa70ff85d1880de00bec39f198a67ba4ca05d7435f",
+    "replicate": 5,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "d091aa60cff69396226b59c441d933f5b56d9e777bcab54e02cb08a92daae083",
+    "replicate": 5,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "ec71142fd487ce621d2a057133411b662a7b8b4784c6ddfe729adf4be34f608d",
+    "replicate": 6,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "c9e72e3da2e89cabec393dfe814e9a25841a937b4d0aa2f902023f81ca4a6aa4",
+    "replicate": 6,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "product_scores",
+    "path": "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle1_scores.csv",
+    "sha256": "79a8332c98806c4e17ac8b8c195801f29042198b4c325f53bb2a10b90b9550a3",
+    "replicate": 7,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "genetic_truth",
+    "path": "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle1/genetic_truth.csv",
+    "sha256": "9427d7879f3bd881822f2a95e96fc47978cceaf33d18f8867332d897e42f327a",
+    "replicate": 7,
+    "crop": "cassava",
+    "source_cycle": 1
+  },
+  {
+    "role": "implementation_or_conceptual_source",
+    "path": "src/uavbreed/deployment.py",
+    "sha256": "5c0dbd414952c51bbfa20b96523ef1debc7bf8bc0a56e4940499acc4229412a5"
+  },
+  {
+    "role": "implementation_or_conceptual_source",
+    "path": "run_deployment.py",
+    "sha256": "ff818d292c4df4b99da59ee3a85212dc9d8245e3bf714024e1e18583315e9638"
+  },
+  {
+    "role": "implementation_or_conceptual_source",
+    "path": "references/cassava_sources.json",
+    "sha256": "a70ce4079d25d3ba2bef28b76f8fc925c849d7ac13f91d94ecd7099ad1d86a5f"
+  },
+  {
+    "role": "implementation_or_conceptual_source",
+    "path": "docs/DEPLOYMENT_CASE.md",
+    "sha256": "37713134f62f031648d07713cedfbb7121fd96de7bd3269113dca7ba91aa3d04"
+  }
+]

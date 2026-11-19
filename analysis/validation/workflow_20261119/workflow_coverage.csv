@@ -1,0 +1,17 @@
+﻿ID,Stage,PilotCoverage,RequiredForOperationalUse,EvidenceIDs
+W01,Product profile and target environments,partial,"Market, target region, quality and cost thresholds",SCHEMES2021
+W02,Germplasm identity and entry health,not_modelled,"Fingerprint, accession, pathogen panel and material provenance",SEED_TOOLKIT
+W03,Crossing and botanical seed,partial,"Meiosis is simulated; flowering, seed set and germination require records",CIAT2016
+W04,Seedling nursery,not_modelled,"Survival, seedling identity and available clonal planting material",CIAT2016
+W05,CET or single-row trial,not_separate,"Clone plots, check varieties, harvest age and stem availability",SCHEMES2021;IITA06
+W06,Preliminary yield trial,not_separate,Replicated trial and product-specific advancement criteria,SCHEMES2021;IITA06
+W07,Advanced yield trial,not_separate,"Connected sites/seasons, trial quality and GxE analysis",SCHEMES2021;IITA06
+W08,Uniform or regional yield trial,not_separate,"Target-environment performance, checks and uncertainty",SCHEMES2021;IITA06
+W09,On-farm and processor evaluation,not_modelled,"Observed farm outcomes, usability and processor acceptance",CIAT2016
+W10,Parent versus clonal selection,implemented_synthetic,Additive parent target versus clonal product performance,CIAT2016
+W11,UAV and root reference measurements,partial,Directly generated proxies require flight and harvest calibration,IITA06
+W12,Stem health and multiplication,not_modelled,"Mother stock, laboratory results, propagation batches and lot tracing",SEED_TOOLKIT;CMD2_TC2018;CMD2_2022
+W13,Vietnam information disclosure,external_requirement,"Applicable TCVN/TCCS, variety information and cultivation process",VN_TT12;VN_NQ66;VN_TT15
+W14,DUS and plant variety rights,external_requirement,Separate route where protection or examination applies,UPOV321
+W15,"Budget, calendar and sensitivity",not_calibrated,"Stage capacity, actual elapsed time, costs and sensitivity analysis",SCHEMES2021
+W16,Selected-clone management,implemented_synthetic,Independent fields of the same known selected clone IDs,

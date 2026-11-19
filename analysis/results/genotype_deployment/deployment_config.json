@@ -1,0 +1,89 @@
+{
+  "data_status": "SYNTHETIC_KNOWN_SELECTED_GENOTYPES_NOT_FIELD_OBSERVATIONS",
+  "case": {
+    "version": "selected_genotype_deployment_v2",
+    "source_strategy": "genomic_uav",
+    "coffee_candidates": 6,
+    "baseline_response_coefficient": 0.2,
+    "stress_treatment_coefficient": 0.9,
+    "genotype_treatment_coefficient": 0.15,
+    "treatment_intercept": -0.15,
+    "nonresponse_effect": -0.12,
+    "response_proxy_noise_sd": 0.4,
+    "outcome_noise_sd": 0.35,
+    "heuristic_stress_threshold": 0.5,
+    "learner": {
+      "max_iter": 60,
+      "max_leaf_nodes": 7,
+      "l2_regularization": 2
+    },
+    "product_fraction": 0.2
+  },
+  "management": {
+    "training_fields": 600,
+    "test_fields": 1000,
+    "treatment_cost_yield_units": 0.3,
+    "nonresponse_rate": 0.25
+  },
+  "phenotyping": {
+    "sensor_noise_sd": 0.2
+  },
+  "crops": {
+    "cassava": {
+      "species": "Manihot esculenta",
+      "chromosomes": 18,
+      "map_morgan": 1.0,
+      "product": "clonal candidate and additive parent index",
+      "mean_yield": 28.0,
+      "yield_scale": 5.0,
+      "yield_unit": "t fresh roots per ha; synthetic",
+      "quality_name": "root dry matter percent",
+      "quality_mean": 33.0,
+      "quality_scale": 3.0,
+      "cycle_years_assumed": 5,
+      "bearing_cohort_only": false
+    }
+  },
+  "seeds": [
+    {
+      "replicate": 0,
+      "crop": "cassava",
+      "seed": 3947418341
+    },
+    {
+      "replicate": 1,
+      "crop": "cassava",
+      "seed": 2451865522
+    },
+    {
+      "replicate": 2,
+      "crop": "cassava",
+      "seed": 3766753186
+    },
+    {
+      "replicate": 3,
+      "crop": "cassava",
+      "seed": 1840089360
+    },
+    {
+      "replicate": 4,
+      "crop": "cassava",
+      "seed": 3711493347
+    },
+    {
+      "replicate": 5,
+      "crop": "cassava",
+      "seed": 1409762513
+    },
+    {
+      "replicate": 6,
+      "crop": "cassava",
+      "seed": 950568267
+    },
+    {
+      "replicate": 7,
+      "crop": "cassava",
+      "seed": 569395353
+    }
+  ]
+}

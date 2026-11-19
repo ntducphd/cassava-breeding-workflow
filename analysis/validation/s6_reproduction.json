@@ -1,0 +1,1077 @@
+{
+  "data_status": "SYNTHETIC_NOT_FIELD_OBSERVATIONS",
+  "replicates": 8,
+  "contrasts": 7,
+  "replicate_rows": 56,
+  "interval": "mean paired difference +/- t(0.975,7) * SD(paired differences)/sqrt(8)",
+  "scope": "Monte Carlo uncertainty under one assumed DGP; field calibration and sensitivity uncertainty are not included.",
+  "shared_parent_cohorts": {
+    "scope": "Shared parent scores and recycled cohorts; product scores may differ.",
+    "cycle0": "Both genomic branches use the same initial state directory.",
+    "selection_columns": [
+      "mean_genetic_value",
+      "genetic_sd",
+      "heterozygosity",
+      "cohort_potential_yield"
+    ],
+    "cohort_checks": [
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": 2.7755575615628914e-17,
+        "genomic_uav": 2.7755575615628914e-17,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 1.0000000000000002,
+        "genomic_uav": 1.0000000000000002,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.49811921296296297,
+        "genomic_uav": 0.49811921296296297,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.781149279123685,
+        "genomic_uav": 25.781149279123685,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 0.7778275898186587,
+        "genomic_uav": 0.7778275898186587,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.8380029374979977,
+        "genomic_uav": 0.8380029374979977,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.4966483410493827,
+        "genomic_uav": 0.4966483410493827,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 30.043408742842683,
+        "genomic_uav": 30.043408742842683,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": -5.088522196198634e-17,
+        "genomic_uav": -5.088522196198634e-17,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 1.0000000000000002,
+        "genomic_uav": 1.0000000000000002,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.4932966820987654,
+        "genomic_uav": 0.4932966820987654,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.789713286078975,
+        "genomic_uav": 25.789713286078975,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.32008908210974,
+        "genomic_uav": 1.32008908210974,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.7638691025553284,
+        "genomic_uav": 0.7638691025553284,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.4976610725308642,
+        "genomic_uav": 0.4976610725308642,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 33.018091342868196,
+        "genomic_uav": 33.018091342868196,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": -9.251858538542972e-17,
+        "genomic_uav": -9.251858538542972e-17,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 1.0,
+        "genomic_uav": 1.0,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.5051842206790124,
+        "genomic_uav": 0.5051842206790124,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.783172274325086,
+        "genomic_uav": 25.783172274325086,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.115492265974419,
+        "genomic_uav": 1.115492265974419,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.7330595384450435,
+        "genomic_uav": 0.7330595384450435,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.4635416666666667,
+        "genomic_uav": 0.4635416666666667,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 31.630213856866874,
+        "genomic_uav": 31.630213856866874,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": 1.249000902703301e-16,
+        "genomic_uav": 1.249000902703301e-16,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 0.9999999999999996,
+        "genomic_uav": 0.9999999999999996,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.5070650077160493,
+        "genomic_uav": 0.5070650077160493,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.784048391846493,
+        "genomic_uav": 25.784048391846493,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.3276969450809066,
+        "genomic_uav": 1.3276969450809066,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.8688231914644936,
+        "genomic_uav": 0.8688231914644936,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.49269386574074076,
+        "genomic_uav": 0.49269386574074076,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 33.3140894704646,
+        "genomic_uav": 33.3140894704646,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": -2.544261098099317e-17,
+        "genomic_uav": -2.544261098099317e-17,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 0.9999999999999998,
+        "genomic_uav": 0.9999999999999998,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.4974922839506173,
+        "genomic_uav": 0.4974922839506173,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.78394908046432,
+        "genomic_uav": 25.78394908046432,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.2429193781433472,
+        "genomic_uav": 1.2429193781433472,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.6368931985245689,
+        "genomic_uav": 0.6368931985245689,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.4917775848765432,
+        "genomic_uav": 0.4917775848765432,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 33.17950672171673,
+        "genomic_uav": 33.17950672171673,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": -4.163336342344337e-17,
+        "genomic_uav": -4.163336342344337e-17,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 1.0000000000000004,
+        "genomic_uav": 1.0000000000000004,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.48934220679012347,
+        "genomic_uav": 0.48934220679012347,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.77981259679076,
+        "genomic_uav": 25.77981259679076,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.267832082199056,
+        "genomic_uav": 1.267832082199056,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.8829496631282259,
+        "genomic_uav": 0.8829496631282259,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.5003858024691358,
+        "genomic_uav": 0.5003858024691358,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 33.23700251377581,
+        "genomic_uav": 33.23700251377581,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": 9.251858538542972e-17,
+        "genomic_uav": 9.251858538542972e-17,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 1.0000000000000004,
+        "genomic_uav": 1.0000000000000004,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.5074025848765432,
+        "genomic_uav": 0.5074025848765432,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.788602063622733,
+        "genomic_uav": 25.788602063622733,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.1695887155494085,
+        "genomic_uav": 1.1695887155494085,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 1.046474286877954,
+        "genomic_uav": 1.046474286877954,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.4997588734567901,
+        "genomic_uav": 0.4997588734567901,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 32.54663628054452,
+        "genomic_uav": 32.54663628054452,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 0,
+        "column": "mean_genetic_value",
+        "genomic": 1.0177044392397268e-16,
+        "genomic_uav": 1.0177044392397268e-16,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 0,
+        "column": "genetic_sd",
+        "genomic": 1.0000000000000002,
+        "genomic_uav": 1.0000000000000002,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 0,
+        "column": "heterozygosity",
+        "genomic": 0.4849295910493827,
+        "genomic_uav": 0.4849295910493827,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 0,
+        "column": "cohort_potential_yield",
+        "genomic": 25.78394566577208,
+        "genomic_uav": 25.78394566577208,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "column": "mean_genetic_value",
+        "genomic": 1.363045916209863,
+        "genomic_uav": 1.363045916209863,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "column": "genetic_sd",
+        "genomic": 0.7844911759321636,
+        "genomic_uav": 0.7844911759321636,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "column": "heterozygosity",
+        "genomic": 0.4998794367283951,
+        "genomic_uav": 0.4998794367283951,
+        "equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "column": "cohort_potential_yield",
+        "genomic": 33.82356982030414,
+        "genomic_uav": 33.82356982030414,
+        "equal": true
+      }
+    ],
+    "parent_score_checks": [
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 0,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "rows": 1152,
+        "id_and_parent_score_equal": true
+      }
+    ],
+    "recycled_state_checks": [
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "d7103a41acb6b04cf2d4b50c4cb0356c145efb07c2b4ea294d511af1d2057fb9"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 0,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "51261b5f13c9b248362659ab625003aa287b22bd19ce617ca4b868d52fcc3c85"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "d0d7203bcaedc50dcd3dc1902199cfe82d5509d3dd633f93a9a9628d3a2d0661"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 1,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "175ab5795773cd8893c7d70639e8983627817b17ffe43e9977f78ca94cb0463e"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "26f1bdc65c11b6bb1398fd41b8e0ebe2ada764960a06e2a3cf67a7d28d978697"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 2,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "02bf0723c9c428919cc51ab42c5158630f73107b8e14421ebff5746402606138"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "b1a9dc19bc7bf9b2f9f41c5cb7599c4b4c68a16b7c45578f551ebda30638ecec"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 3,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "36a7485a34d97a6765209d2c96314d0d744a0fefe5ff4faecd77bde614b347ca"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "6d749d6cbcf9a5c2241d7a5a40bddd3e859b925ffc42f09d8f495e815fdfc619"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 4,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "597728c54fb356ace48e52d8382c1a011e52b81e939f75c7d082fffed1a00a0c"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "d091aa60cff69396226b59c441d933f5b56d9e777bcab54e02cb08a92daae083"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 5,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "aececc2bc3f5ee269cc6d3ae1bec0bb34e3331b2c0066dfc7633fb35abc380a3"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "c9e72e3da2e89cabec393dfe814e9a25841a937b4d0aa2f902023f81ca4a6aa4"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 6,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "fa350d5e16d88ceab562ba2f8b805d6f6a7a61c198f4b4c320e9d93f48ea86c4"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "file": "genetic_truth.csv",
+        "byte_identical": true,
+        "sha256": "9427d7879f3bd881822f2a95e96fc47978cceaf33d18f8867332d897e42f327a"
+      },
+      {
+        "crop": "cassava",
+        "replicate": 7,
+        "cycle": 1,
+        "file": "markers.csv",
+        "byte_identical": true,
+        "sha256": "b8d0b65ddc37795b54a8885f45ec58cd18f003a1a65a7c940f143537e07500e6"
+      }
+    ],
+    "parent_selection_jsons_equal": true
+  },
+  "input_source_sha256": {
+    "analysis/results/validated_pilot/config_used.json": "f8fa0925296767c24224349531f683453dc37ea1bb0b14b0a09a48354033a5f2",
+    "analysis/results/validated_pilot/run_manifest.json": "39a470dda165088c694f2bc117143c8377e51f42ba5d17d88a9380b9256c9050",
+    "configs/pilot.json": "f8fa0925296767c24224349531f683453dc37ea1bb0b14b0a09a48354033a5f2",
+    "src/uavbreed/programme.py": "225b35279ecd867e3b75558804308c13d7f7833810eebdaaaf18af787682f94c",
+    "src/uavbreed/genetics.R": "b6816ac1f4e1f61d4141d56756194cf11720c46276f8aa7af86308c15a3809bc",
+    "src/uavbreed/models.py": "9979f605126e3507dda2b5d3e5fd7140546b618ecf01df42a062fe09af5b525d",
+    "src/uavbreed/deployment.py": "5c0dbd414952c51bbfa20b96523ef1debc7bf8bc0a56e4940499acc4229412a5",
+    "analysis/results/genotype_deployment/deployment_config.json": "605221390744d4da376a417bf8341a1590999fba1761162a547da85f5c3f625f",
+    "analysis/results/genotype_deployment/run_manifest.json": "47531c8ecd69192f0a1f04465b139004a7a002c738f5a6e23cd1a0647dc371d2",
+    "analysis/results/validated_pilot/prediction_metrics.csv": "3757f89e0995e77bbc3e93d20ccd53d0e3f1e4c323f543f4a13b743db899bc21",
+    "analysis/results/genotype_deployment/policy_metrics.csv": "c0ef81e84d3b57d3d0130bcafb4df6c960aa0595b36c237df44bbec4f7e14d12",
+    "analysis/results/validated_pilot/selection_metrics.csv": "027c105087c22127422bb0985ed03b2e089bf13df6e73fe7cd078535964e1438",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_cycle0_scores.csv": "6fb3fda1f9e07eaa26e86ec8b12ac8f6144fe6366ebe4ef56ecba67d92b7b79e",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle0_scores.csv": "aa5c41e94eabe4ab89b867babe58a2f3455026f864ef18dc21f3aa24964ef18b",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_cycle1_scores.csv": "5294b8e36ca1930149205223b9a42ca59524c04bdc92037ae71d1eb80e913147",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle1_scores.csv": "8f38172bde73bd9bfdd1bb396a091b5b5785b670fd26c77112d0c27111593659",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_cycle1/genetic_truth.csv": "d7103a41acb6b04cf2d4b50c4cb0356c145efb07c2b4ea294d511af1d2057fb9",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle1/genetic_truth.csv": "d7103a41acb6b04cf2d4b50c4cb0356c145efb07c2b4ea294d511af1d2057fb9",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_cycle1/markers.csv": "51261b5f13c9b248362659ab625003aa287b22bd19ce617ca4b868d52fcc3c85",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle1/markers.csv": "51261b5f13c9b248362659ab625003aa287b22bd19ce617ca4b868d52fcc3c85",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_cycle1/parent_selection.json": "ac1c679eed0985201f199d26f2428fd4e7cefbccb37b427f86cde6db06298c76",
+    "analysis/results/validated_pilot/snapshots/r000/cassava/genomic_uav_cycle1/parent_selection.json": "ac1c679eed0985201f199d26f2428fd4e7cefbccb37b427f86cde6db06298c76",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_cycle0_scores.csv": "8d8151e5429e9ba30b16f48faff3b247a1c03e7dc6634350580cefda4a543c68",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle0_scores.csv": "6f90be18b098e8f0fada31fc0e9ba110497d160ab921d2b26162b786f642d3d4",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_cycle1_scores.csv": "48d90a640db9e8fe9bda280f2203cd439a082cbc9fdf21d8e439c339d38fe5f4",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle1_scores.csv": "9971fed8f459b0f2a784f3a5d3b9a2f6cbb7b0f2dad1ce9d8cfdbd945f17dc33",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_cycle1/genetic_truth.csv": "d0d7203bcaedc50dcd3dc1902199cfe82d5509d3dd633f93a9a9628d3a2d0661",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle1/genetic_truth.csv": "d0d7203bcaedc50dcd3dc1902199cfe82d5509d3dd633f93a9a9628d3a2d0661",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_cycle1/markers.csv": "175ab5795773cd8893c7d70639e8983627817b17ffe43e9977f78ca94cb0463e",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle1/markers.csv": "175ab5795773cd8893c7d70639e8983627817b17ffe43e9977f78ca94cb0463e",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_cycle1/parent_selection.json": "bdc52f2771ea5c7715a70264e4483b7c217bbfe1204cfe87e871209a1005dbcb",
+    "analysis/results/validated_pilot/snapshots/r001/cassava/genomic_uav_cycle1/parent_selection.json": "bdc52f2771ea5c7715a70264e4483b7c217bbfe1204cfe87e871209a1005dbcb",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_cycle0_scores.csv": "4f8b03f01685b5d9551b4d55884ae5df1910b880b5abd3a7517175c254a6a245",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle0_scores.csv": "6c117b32299a1c953594d4d13b5627e7ad400c83f4e7355074a916f33b46fcde",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_cycle1_scores.csv": "0636e9a78b9b0420f1854ad295e768dcd1746d4accbeabd76960fffe27954fbb",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle1_scores.csv": "0923b6f0eebf9107037eaf1dcc6f7ab10461fd05b1f6e935f4e6129a51bd66cd",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_cycle1/genetic_truth.csv": "26f1bdc65c11b6bb1398fd41b8e0ebe2ada764960a06e2a3cf67a7d28d978697",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle1/genetic_truth.csv": "26f1bdc65c11b6bb1398fd41b8e0ebe2ada764960a06e2a3cf67a7d28d978697",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_cycle1/markers.csv": "02bf0723c9c428919cc51ab42c5158630f73107b8e14421ebff5746402606138",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle1/markers.csv": "02bf0723c9c428919cc51ab42c5158630f73107b8e14421ebff5746402606138",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_cycle1/parent_selection.json": "ff11b1eeab2888fcd8629c99a5f64c4c47b3ba127c77f67a971a2e6c1e657dbb",
+    "analysis/results/validated_pilot/snapshots/r002/cassava/genomic_uav_cycle1/parent_selection.json": "ff11b1eeab2888fcd8629c99a5f64c4c47b3ba127c77f67a971a2e6c1e657dbb",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_cycle0_scores.csv": "494cb73713c516df4eefc8fcd167512f412eb778f13a6e7d2b3541bc9a0f4b7f",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle0_scores.csv": "555bc3f488bc722854de3ff11bfe81569de7fe6678441b47179caec15c9c0876",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_cycle1_scores.csv": "47c3b5110b91426c9df81816e44efeb5447ad39d00281f031050f57a9ec6a416",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle1_scores.csv": "f46a2f0427508c6b689df47d12454bd064a7b178bdffb9a80adc5b749015f0db",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_cycle1/genetic_truth.csv": "b1a9dc19bc7bf9b2f9f41c5cb7599c4b4c68a16b7c45578f551ebda30638ecec",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle1/genetic_truth.csv": "b1a9dc19bc7bf9b2f9f41c5cb7599c4b4c68a16b7c45578f551ebda30638ecec",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_cycle1/markers.csv": "36a7485a34d97a6765209d2c96314d0d744a0fefe5ff4faecd77bde614b347ca",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle1/markers.csv": "36a7485a34d97a6765209d2c96314d0d744a0fefe5ff4faecd77bde614b347ca",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_cycle1/parent_selection.json": "3f935e8f05d0430b0747c3b32d0fa1937f0d746e78905eaa4a34f5d983fc9f6b",
+    "analysis/results/validated_pilot/snapshots/r003/cassava/genomic_uav_cycle1/parent_selection.json": "3f935e8f05d0430b0747c3b32d0fa1937f0d746e78905eaa4a34f5d983fc9f6b",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_cycle0_scores.csv": "5f0c37a19fad11754c19b774502d8aaf1982885788417066f465f427040d1023",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle0_scores.csv": "035cd9d5acc93192b66fd5733e1bc5ce9ed783263b91880b71843b1d68bc8521",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_cycle1_scores.csv": "ff1418c8bd9cb7b2258903a5995ad72ab672ae5d31809e29e0947eefc7cb51d5",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle1_scores.csv": "810780d028cffb91430267b19e0d62c835103934cacd89dc885144d10e06f8d6",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_cycle1/genetic_truth.csv": "6d749d6cbcf9a5c2241d7a5a40bddd3e859b925ffc42f09d8f495e815fdfc619",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle1/genetic_truth.csv": "6d749d6cbcf9a5c2241d7a5a40bddd3e859b925ffc42f09d8f495e815fdfc619",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_cycle1/markers.csv": "597728c54fb356ace48e52d8382c1a011e52b81e939f75c7d082fffed1a00a0c",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle1/markers.csv": "597728c54fb356ace48e52d8382c1a011e52b81e939f75c7d082fffed1a00a0c",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_cycle1/parent_selection.json": "8e813786a53b1a96c57a79bccdb7c3fe81de9942eb9454a780a932c5202dd1fc",
+    "analysis/results/validated_pilot/snapshots/r004/cassava/genomic_uav_cycle1/parent_selection.json": "8e813786a53b1a96c57a79bccdb7c3fe81de9942eb9454a780a932c5202dd1fc",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_cycle0_scores.csv": "24147484c0b5494402e21a676ae7072b06b24ce6b504ab95de14d131b573a34c",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle0_scores.csv": "672edd8d31f75f154f8d78a06edbc0076e70f1fb23654c1419aa3388eb3bb85b",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_cycle1_scores.csv": "91630e9e0c1fdf8cabf77b118c7d3917b6e121247f3d73530a8a9d0e244da3d7",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle1_scores.csv": "a3a34daf371091cd0906f7fa70ff85d1880de00bec39f198a67ba4ca05d7435f",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_cycle1/genetic_truth.csv": "d091aa60cff69396226b59c441d933f5b56d9e777bcab54e02cb08a92daae083",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle1/genetic_truth.csv": "d091aa60cff69396226b59c441d933f5b56d9e777bcab54e02cb08a92daae083",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_cycle1/markers.csv": "aececc2bc3f5ee269cc6d3ae1bec0bb34e3331b2c0066dfc7633fb35abc380a3",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle1/markers.csv": "aececc2bc3f5ee269cc6d3ae1bec0bb34e3331b2c0066dfc7633fb35abc380a3",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_cycle1/parent_selection.json": "65a722aaeec64bc1c26c9739888c891adad5775cd443a61e81e321a0992e75d2",
+    "analysis/results/validated_pilot/snapshots/r005/cassava/genomic_uav_cycle1/parent_selection.json": "65a722aaeec64bc1c26c9739888c891adad5775cd443a61e81e321a0992e75d2",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_cycle0_scores.csv": "f4cd5e395a4016188ae40f8f433964f6091a4aaf186c92bc7ced04845e1973f9",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle0_scores.csv": "9c04c5c097c083c92a273fb5f822db9041881d97d8562476fc481ea144330971",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_cycle1_scores.csv": "14fa37f53cc65dc96a49c07c4ababa6acd96026a409b2ca0c78fcaf06584d8bd",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle1_scores.csv": "ec71142fd487ce621d2a057133411b662a7b8b4784c6ddfe729adf4be34f608d",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_cycle1/genetic_truth.csv": "c9e72e3da2e89cabec393dfe814e9a25841a937b4d0aa2f902023f81ca4a6aa4",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle1/genetic_truth.csv": "c9e72e3da2e89cabec393dfe814e9a25841a937b4d0aa2f902023f81ca4a6aa4",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_cycle1/markers.csv": "fa350d5e16d88ceab562ba2f8b805d6f6a7a61c198f4b4c320e9d93f48ea86c4",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle1/markers.csv": "fa350d5e16d88ceab562ba2f8b805d6f6a7a61c198f4b4c320e9d93f48ea86c4",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_cycle1/parent_selection.json": "8955c3e82dfdd2069ce9c4f0c6b9761244c414342d21870d351be39969bbb8ea",
+    "analysis/results/validated_pilot/snapshots/r006/cassava/genomic_uav_cycle1/parent_selection.json": "8955c3e82dfdd2069ce9c4f0c6b9761244c414342d21870d351be39969bbb8ea",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_cycle0_scores.csv": "ab158f6f0bd24cb996a861d00ef01bcb1256901275bbac6732f9822d75281104",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle0_scores.csv": "9e98b7cc787c230cafe87522c91958ba327400dc34ed2e7f21b10384a8179178",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_cycle1_scores.csv": "5f841bd112b32d98596027341305c620a1ddc32be597e422e807dea152b323aa",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle1_scores.csv": "79a8332c98806c4e17ac8b8c195801f29042198b4c325f53bb2a10b90b9550a3",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_cycle1/genetic_truth.csv": "9427d7879f3bd881822f2a95e96fc47978cceaf33d18f8867332d897e42f327a",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle1/genetic_truth.csv": "9427d7879f3bd881822f2a95e96fc47978cceaf33d18f8867332d897e42f327a",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_cycle1/markers.csv": "b8d0b65ddc37795b54a8885f45ec58cd18f003a1a65a7c940f143537e07500e6",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle1/markers.csv": "b8d0b65ddc37795b54a8885f45ec58cd18f003a1a65a7c940f143537e07500e6",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_cycle1/parent_selection.json": "d866925663767c56ec1fa4141e7717f284228b22bfeb78798be5e95347d5261e",
+    "analysis/results/validated_pilot/snapshots/r007/cassava/genomic_uav_cycle1/parent_selection.json": "d866925663767c56ec1fa4141e7717f284228b22bfeb78798be5e95347d5261e"
+  },
+  "script_sha256": "2418bc1efee0333d3a46b9b2339582019f1f809cc86c0ebc99aab452c2964832",
+  "summary": [
+    {
+      "experiment": "prediction",
+      "crop": "cassava",
+      "setting": "future_harvest",
+      "contrast": "genomic_uav_minus_genomic",
+      "unit": "RMSE / assumed crop yield_scale (dimensionless)",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 0.6867130681023113,
+      "second_mean": 0.6843077646656957,
+      "mean_difference": 0.0024053034366155607,
+      "SD_MC": 0.001536214601636326,
+      "SE_MC": 0.0005431338810874184,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": 0.0011209958895345398,
+      "ci95_high": 0.0036896109836965815
+    },
+    {
+      "experiment": "prediction",
+      "crop": "cassava",
+      "setting": "new_parents",
+      "contrast": "genomic_uav_minus_genomic",
+      "unit": "RMSE / assumed crop yield_scale (dimensionless)",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 1.1462773996084121,
+      "second_mean": 1.2140136895188633,
+      "mean_difference": -0.06773628991045116,
+      "SD_MC": 0.04915078375392583,
+      "SE_MC": 0.01737742624651727,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": -0.10882737344323087,
+      "ci95_high": -0.02664520637767146
+    },
+    {
+      "experiment": "prediction",
+      "crop": "cassava",
+      "setting": "new_site",
+      "contrast": "genomic_uav_minus_genomic",
+      "unit": "RMSE / assumed crop yield_scale (dimensionless)",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 0.7110058078214229,
+      "second_mean": 0.7051950923629883,
+      "mean_difference": 0.005810715458434534,
+      "SD_MC": 0.003376147183361095,
+      "SE_MC": 0.0011936482838192462,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": 0.0029881857786434383,
+      "ci95_high": 0.00863324513822563
+    },
+    {
+      "experiment": "prediction",
+      "crop": "cassava",
+      "setting": "new_parents_site",
+      "contrast": "genomic_uav_minus_genomic",
+      "unit": "RMSE / assumed crop yield_scale (dimensionless)",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 1.1425184607043033,
+      "second_mean": 1.2346936417284413,
+      "mean_difference": -0.09217518102413799,
+      "SD_MC": 0.06767518463265648,
+      "SE_MC": 0.023926790985901513,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": -0.14875305125219232,
+      "ci95_high": -0.03559731079608366
+    },
+    {
+      "experiment": "selected_known_genotype_deployment",
+      "crop": "cassava",
+      "setting": "same_1000_held_out_fields_within_replicate",
+      "contrast": "learned_policy_minus_all",
+      "unit": "synthetic net yield equivalent: t fresh roots per ha; synthetic",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 36.79692924743078,
+      "second_mean": 36.376669567660166,
+      "mean_difference": 0.42025967977061374,
+      "SD_MC": 0.23062982912311056,
+      "SE_MC": 0.08153995805842308,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": 0.22744831747180805,
+      "ci95_high": 0.6130710420694194
+    },
+    {
+      "experiment": "selected_known_genotype_deployment",
+      "crop": "cassava",
+      "setting": "same_1000_held_out_fields_within_replicate",
+      "contrast": "uav_rule_minus_all",
+      "unit": "synthetic net yield equivalent: t fresh roots per ha; synthetic",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 36.92232485335778,
+      "second_mean": 36.376669567660166,
+      "mean_difference": 0.5456552856976087,
+      "SD_MC": 0.1706707536961454,
+      "SE_MC": 0.060341223644381714,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": 0.40297096489731976,
+      "ci95_high": 0.6883396064978976
+    },
+    {
+      "experiment": "selected_known_genotype_deployment",
+      "crop": "cassava",
+      "setting": "same_1000_held_out_fields_within_replicate",
+      "contrast": "learned_policy_minus_uav_rule",
+      "unit": "synthetic net yield equivalent: t fresh roots per ha; synthetic",
+      "assumed_yield_scale": 5.0,
+      "source_yield_unit": "t fresh roots per ha; synthetic",
+      "n_replicates": 8,
+      "df": 7,
+      "first_mean": 36.79692924743078,
+      "second_mean": 36.92232485335778,
+      "mean_difference": -0.12539560592699495,
+      "SD_MC": 0.09267007053874572,
+      "SE_MC": 0.0327638176454914,
+      "t_0_975_df7": 2.364624251592784,
+      "ci95_low": -0.20286972370628747,
+      "ci95_high": -0.047921488147702404
+    }
+  ],
+  "output_sha256": {
+    "Supplementary_Table_S6_Simulation_Contrasts.csv": "0bd63ddd6212486ab8927ee28db0a18c914e44160f33ddf94242acd6322c74d1",
+    "Supplementary_Table_S6_Simulation_Replicates.csv": "9f16f95952adc4e1b13380cec2c55f4b08e7919c00239d1477775ec20bcdaf1a",
+    "Supplementary_Table_S6_Simulation_Contrasts.xlsx": "0d0ce2150fd1ea7bc210c7ee91be833e0ed7788136a45c25d317d54a6d61c49c",
+    "Supplementary_Simulation_Contrasts.py": "2418bc1efee0333d3a46b9b2339582019f1f809cc86c0ebc99aab452c2964832"
+  }
+}

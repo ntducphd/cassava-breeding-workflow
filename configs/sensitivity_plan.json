@@ -1,0 +1,32 @@
+{
+  "status": "planned_not_run",
+  "pairing": "same founder seeds between scenarios",
+  "factors": {
+    "phenotyping.sensor_noise_sd": [
+      0.1,
+      0.2,
+      0.4
+    ],
+    "phenotyping.residual_sd": [
+      0.4,
+      0.65,
+      1.0
+    ],
+    "genetics.mean_dominance_degree": [
+      0,
+      0.3,
+      0.6
+    ],
+    "genetics.ld_block_morgan": [
+      0.04,
+      0.08,
+      0.16
+    ],
+    "crops.*.map_morgan": [
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "stopping": "Choose replicate count from Monte Carlo error and design precision;200 is a prepared configuration, not a completed experiment."
+}

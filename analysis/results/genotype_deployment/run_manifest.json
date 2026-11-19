@@ -1,0 +1,25 @@
+{
+  "data_status": "SYNTHETIC_KNOWN_SELECTED_GENOTYPES_NOT_FIELD_OBSERVATIONS",
+  "source_directory": "analysis/results/validated_pilot",
+  "replicates": 8,
+  "crops": [
+    "cassava"
+  ],
+  "source_cycle": 1,
+  "interpretation": "Independent synthetic held-out fields of known selected genotype IDs; no new-genotype validation, measured fruit set or farm feedback.",
+  "python": "3.13.13",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "scikit_learn": "1.9.1",
+  "outputs": {
+    "deployment_config.json": "605221390744d4da376a417bf8341a1590999fba1761162a547da85f5c3f625f",
+    "field_truth_TRUTH_ONLY.csv": "bc566f6bf87f9e824183df2afe9b3ab74f505305470cd615726dffde048a7146",
+    "observations_SYNTHETIC.csv": "ef83da55714030a1727085d3b695188026ab6885f7ced77c3978630e0ce60fec",
+    "policy_metrics.csv": "c0ef81e84d3b57d3d0130bcafb4df6c960aa0595b36c237df44bbec4f7e14d12",
+    "selected_candidates_TRUTH_ONLY.csv": "c61ca29f8511b0135e314a2b5b7c05125aaf6312849b721d6a969600d164a536",
+    "source_config_used.json": "f8fa0925296767c24224349531f683453dc37ea1bb0b14b0a09a48354033a5f2",
+    "source_manifest.json": "a2f90f2103ba2894d9cd8404b74fd59e3cf699cb7504b11cfbc94dfd25f212dd",
+    "source_run_manifest.json": "39a470dda165088c694f2bc117143c8377e51f42ba5d17d88a9380b9256c9050",
+    "test_field_policies_TRUTH_ONLY.csv": "135ef864cf56c829db66c739a23f1c42025a68c00ce6aa9c458887f3dd8b5f5d"
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0",
+  "assessed_date": "2026-11-16",
+  "purpose": "Evidence for a distinct cassava breeding, UAV phenotyping and clonal multiplication simulation paper in IAS_Cassava/paper_cassava_review.",
+  "search_scope": "Targeted primary/official-source assessment, not a systematic literature review. Academic MCP was unavailable; public publisher, institutional and registry sources were used.",
+  "sources": [
+    {
+      "source_id": "C01",
+      "kind": "official_institutional_source",
+      "title": "NCBI cassava assembly and annotation records",
+      "doi": null,
+      "publication_date": null,
+      "url": "https://www.ncbi.nlm.nih.gov/refseq/annotation_euk/Manihot_esculenta/101/",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Assemblies; Annotation Release information",
+        "NCBI Datasets JSON: organism.infraspecific_names; assembly_info; assembly_stats; organelle_info"
+      ],
+      "assessment_scope": "Official v8 API fields, Annotation Release 100/101 tables and legacy v6 assembly-report header assessed. Legacy v6 direct API returned an empty object.",
+      "permitted_claims": [
+        "AM560-2 v8 is GCF_001659605.2, paired GCA_001659605.2; the v6 accession has version .1.",
+        "The v8 record represents a haploid reference and lists 18 nuclear chromosomes plus chloroplast and mitochondrion."
+      ],
+      "limits": [
+        "Assembly representation is not biological ploidy. Do not count organelles as nuclear chromosomes or mix coordinate/annotation versions."
+      ],
+      "full_paper_assessment_complete": false,
+      "additional_primary_urls": [
+        "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_001659605.2/dataset_report",
+        "https://www.ncbi.nlm.nih.gov/refseq/annotation_euk/Manihot_esculenta/100/",
+        "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/3983/dataset_report?page_size=100",
+        "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/659/605/GCF_001659605.1_Manihot_esculenta_v6/GCF_001659605.1_Manihot_esculenta_v6_assembly_report.txt"
+      ],
+      "cache_files": [
+        "source_cache/C01_AM560_v8.json",
+        "source_cache/C01_C02_cassava_assembly_reports.json",
+        "source_cache/C01_v6_assembly_report.txt"
+      ],
+      "assembly_release_date_v8": "2021-08-13",
+      "annotation_release_date_101": "2021-09-28"
+    },
+    {
+      "source_id": "C02",
+      "kind": "primary_research",
+      "title": "The haplotype-resolved chromosome pairs of a heterozygous diploid African cassava cultivar reveal novel pan-genome and allele-specific transcriptome features",
+      "authors": [],
+      "doi": "10.1093/gigascience/giac028",
+      "publication_date": "2022-03-24",
+      "url": "https://doi.org/10.1093/gigascience/giac028",
+      "public_fulltext_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8952263/fullTextXML",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Analyses: Phased, haplotype-resolved contigs; Pseudochromosome pairs; Table 3",
+        "Data Availability",
+        "NCBI taxon-3983 dataset_report: TME204 assembly_name, bioproject_accession and linked_assemblies"
+      ],
+      "assessment_scope": "Selected assembly analyses, Table 3 text and data availability assessed; NCBI assembly identities cross-checked.",
+      "permitted_claims": [
+        "TME204 is a heterozygous diploid cultivar represented by two phased haplotypes with 18 pseudochromosomes each.",
+        "H1 corresponds to PRJNA758616 and H2 to PRJNA758615; registry assembly names resolve the GCA identities."
+      ],
+      "limits": [
+        "H1/H2 are not two cultivars or evidence of tetraploidy. BioProject IDs are not assembly accessions. Genome resources do not establish agronomic superiority in Vietnam."
+      ],
+      "full_paper_assessment_complete": false,
+      "supplements_assessed": false,
+      "figures_visually_inspected": false,
+      "cache_file": "source_cache/C02_TME204.xml",
+      "cache_sha256": "827d231bb051e248d2dd1b40f26f857cd5bced6e7f2649c4b2324159001f7bfe",
+      "additional_primary_urls": [
+        "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/3983/dataset_report?page_size=100",
+        "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_020916445.1/",
+        "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_020916425.1/"
+      ]
+    },
+    {
+      "source_id": "C03",
+      "kind": "primary_research",
+      "title": "Marker-Based Estimates Reveal Significant Nonadditive Effects in Clonally Propagated Cassava (Manihot esculenta): Implications for the Prediction of Total Genetic Value and the Selection of Varieties",
+      "authors": [],
+      "doi": "10.1534/g3.116.033332",
+      "publication_date": "2016-08-30",
+      "url": "https://doi.org/10.1534/g3.116.033332",
+      "public_fulltext_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5100848/fullTextXML",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Methods: Germplasm and phenotyping trials",
+        "Results: Partitioning the genetic variance",
+        "Discussion, opening paragraphs"
+      ],
+      "assessment_scope": "Selected methods, model-comparison and discussion excerpts assessed, sufficient for breeding-value versus clonal-value distinction.",
+      "permitted_claims": [
+        "IITA/NextGen data support modelling additive and nonadditive effects separately.",
+        "Nonadditive model benefit differed by trait; root-yield results did not generalise to dry matter."
+      ],
+      "limits": [
+        "Use additive parent merit and clonal total genetic value as distinct targets. A+D is a reduced model when epistasis is omitted; no study variance component is imported into the simulation."
+      ],
+      "full_paper_assessment_complete": false,
+      "supplements_assessed": false,
+      "figures_visually_inspected": false,
+      "cache_file": "source_cache/C03_nonadditive.xml",
+      "cache_sha256": "a970a496d26af75fee45550dc09b7ce9fe44775a48d250c8b5395f01ad97cf54",
+      "issue_date": "2016-11-01"
+    },
+    {
+      "source_id": "C04",
+      "kind": "primary_research",
+      "title": "Genomic mating in outbred species: predicting cross usefulness with additive and total genetic covariance matrices",
+      "authors": [
+        "Marnin D Wolfe",
+        "Ariel W Chan",
+        "Peter Kulakow",
+        "Ismail Rabbi",
+        "Jean-Luc Jannink"
+      ],
+      "doi": "10.1093/genetics/iyab122",
+      "publication_date": "2021-09-03",
+      "url": "https://doi.org/10.1093/genetics/iyab122",
+      "public_fulltext_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8570794/fullTextXML",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Genomic mate selection for outbred, clonal crops",
+        "Cassava data: traits, trials, and selection indices",
+        "Parent-wise cross-validation scheme",
+        "Caveats, limitations, and future directions"
+      ],
+      "assessment_scope": "Selected mate-selection formulation, target traits, parent-wise validation and limitations assessed.",
+      "permitted_claims": [
+        "Cross usefulness can target additive breeding value or total genetic value.",
+        "Parent-wise validation excluded descendants of held-out parents from marker-effect training while retaining the phenotyped parents."
+      ],
+      "limits": [
+        "Predicted family distributions and usefulness are not realised selection gain. Phasing, pedigree and marker density constrain application. No local covariance matrix or index weights are supplied."
+      ],
+      "full_paper_assessment_complete": false,
+      "supplements_assessed": false,
+      "figures_visually_inspected": false,
+      "cache_file": "source_cache/C04_mating.xml",
+      "cache_sha256": "bf194ceb4d667eea2096c4fcc05387bba9b2eefa06dca31e60f41e5b0748c78f",
+      "issue_date": "2021-11"
+    },
+    {
+      "source_id": "C05",
+      "kind": "primary_research",
+      "title": "Improving root characterisation for genomic prediction in cassava",
+      "authors": [
+        "Bilan Omar Yonis",
+        "Dunia Pino del Carpio",
+        "Marnin Wolfe",
+        "Jean-Luc Jannink",
+        "Peter Kulakow",
+        "Ismail Rabbi"
+      ],
+      "doi": "10.1038/s41598-020-64963-9",
+      "publication_date": "2020-05-14",
+      "url": "https://doi.org/10.1038/s41598-020-64963-9",
+      "public_fulltext_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7224197/fullTextXML",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Materials and methods: Image acquisition; Image processing and phenotype acquisition",
+        "Genomic prediction",
+        "Results: Genomic prediction; Figures 5–6 captions"
+      ],
+      "assessment_scope": "Harvested-root image acquisition and genomic-prediction methods/results assessed; figure captions read without visual inspection.",
+      "permitted_claims": [
+        "Root size/shape images came from harvested roots arranged separately on a calibrated board.",
+        "The paper assessed genomic prediction of image-derived root traits with repeated fivefold partitions."
+      ],
+      "limits": [
+        "This is harvested-root photography, not UAV observation through soil. Root yield, shape and chemical quality remain separately observed traits."
+      ],
+      "full_paper_assessment_complete": false,
+      "supplements_assessed": false,
+      "figures_visually_inspected": false,
+      "cache_file": "source_cache/C05_root_image.xml",
+      "cache_sha256": "be471f0c0b98a8db4c373c7f3b78b85dcac6634ffe16186131cad717f323ae96"
+    },
+    {
+      "source_id": "C06",
+      "kind": "primary_research",
+      "title": "Machine learning for high-throughput field phenotyping and image processing provides insight into the association of above and below-ground traits in cassava (Manihot esculenta Crantz)",
+      "authors": [],
+      "doi": "10.1186/s13007-020-00625-1",
+      "publication_date": "2020-06-14",
+      "url": "https://doi.org/10.1186/s13007-020-00625-1",
+      "public_fulltext_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7296968/fullTextXML",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Materials and methods: Experimental site and trial conditions; Ground-truth measurements",
+        "Dataset preparation; Assessing the quality of the model",
+        "Results: Cassava root yield predictions using ML models; Tables 1, 4"
+      ],
+      "assessment_scope": "Experimental design, harvest references, field-repetition holdout and Table 4 text assessed.",
+      "permitted_claims": [
+        "CIAT Pheno-i estimated canopy features from UAV imagery in two Colombian trials with four contrasting genotypes.",
+        "Root biomass was weighed at harvest; the ML test held out one field repetition."
+      ],
+      "limits": [
+        "Canopy-based root-yield prediction is a proxy calibrated against harvest. The test does not establish transfer to new genotypes, Vietnam sites or future years; R-squared must not become a universal sensor-error variance."
+      ],
+      "full_paper_assessment_complete": false,
+      "supplements_assessed": false,
+      "figures_visually_inspected": false,
+      "cache_file": "source_cache/C06_UAV.xml",
+      "cache_sha256": "97d0c1abd424745521828a0b40dd7d52579abd67b8a3c76d65063592c82b3765"
+    },
+    {
+      "source_id": "C07",
+      "kind": "official_institutional_source",
+      "title": "BASICS: Breeder Seed Component",
+      "doi": null,
+      "publication_date": null,
+      "url": "https://www.rtb.cgiar.org/sites/basics/activities/breeders-seed/",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Breeder Seed Component; Semi-Autotropic Hydroponics; Go-Seed",
+        "Classes of Seed: Breeder, Foundation, Certified Seeds"
+      ],
+      "assessment_scope": "Official public page text assessed. Subsequent page access returned HTTP 401; no restriction was bypassed.",
+      "permitted_claims": [
+        "IITA/NRCRI breeder material feeds traceable foundation and commercial/certified vegetative-seed production.",
+        "SAH and GoSeed support early-generation multiplication and links with private producers."
+      ],
+      "limits": [
+        "These are Nigerian programme/class descriptions, not Vietnamese certification rules. No fixed multiplication ratio or stage duration is transferred."
+      ],
+      "full_paper_assessment_complete": false
+    },
+    {
+      "source_id": "C08",
+      "kind": "official_institutional_source",
+      "title": "BASICS: Quality Seed Component",
+      "doi": null,
+      "publication_date": null,
+      "url": "https://www.rtb.cgiar.org/sites/basics/activities/quality-seed/",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Quality Seed Component: certification at Breeder/Foundation/Certified levels",
+        "Molecular diagnostics for CMD/CBSD; Cassava Seed Tracker"
+      ],
+      "assessment_scope": "Official public quality-component description assessed. Subsequent access returned HTTP 401.",
+      "permitted_claims": [
+        "Planting-material identity, regulated certification, molecular diagnostic capability and traceability are separate controls."
+      ],
+      "limits": [
+        "Reported project intentions are not proof that every lot was tested or certified. A canopy disease label is not a laboratory-negative result. Nigerian pest context is not a Vietnam prevalence claim."
+      ],
+      "full_paper_assessment_complete": false
+    },
+    {
+      "source_id": "C09",
+      "kind": "official_institutional_source",
+      "title": "Alliance Bioversity International-CIAT: Colombia Genebank",
+      "doi": null,
+      "publication_date": null,
+      "url": "https://alliancebioversityciat.org/colombia-genebank",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Cassava collection: pathogen-negative indexing, distribution and accompanying documents"
+      ],
+      "assessment_scope": "Cassava-section official page/excerpts assessed; a later page request timed out.",
+      "permitted_claims": [
+        "The cassava collection distributes pathogen-indexed material with a health statement, phytosanitary certificate and Standard Material Transfer Agreement."
+      ],
+      "limits": [
+        "A genebank health statement is distinct from commercial certification. Record tested pathogens, method and date; do not interpret indexed material as universally free of all pathogens."
+      ],
+      "full_paper_assessment_complete": false
+    },
+    {
+      "source_id": "C10",
+      "kind": "official_institutional_source",
+      "title": "NextGen Cassava: Project Structure & Objectives",
+      "doi": null,
+      "publication_date": null,
+      "url": "https://www.nextgencassava.org/project-structure-objectives/",
+      "accessed_date": "2026-11-16",
+      "anchors": [
+        "Breeding Division",
+        "Research Division",
+        "Survey Division"
+      ],
+      "assessment_scope": "Official project divisions and their stated roles assessed.",
+      "permitted_claims": [
+        "NextGen combines breeding/clonal testing, genomic prediction, Cassavabase and product-profile research.",
+        "CIAT/Embrapa pre-breeding and phytosanitary/international-nursery roles are distinguished from variety-release breeding."
+      ],
+      "limits": [
+        "Programme organisation supplies a workflow precedent, not fixed Vietnamese stages, durations, costs or realised gains."
+      ],
+      "full_paper_assessment_complete": false
+    }
+  ],
+  "reference_genomes": [
+    {
+      "cultivar": "AM560-2",
+      "reference_label": "Manihot esculenta v6",
+      "refseq": "GCF_001659605.1",
+      "genbank": "GCA_001659605.1",
+      "source_ids": [
+        "C01"
+      ],
+      "status": "Legacy accession, annotation release 100; RefSeq/GenBank pair verified in the official archived assembly report."
+    },
+    {
+      "cultivar": "AM560-2",
+      "reference_label": "M.esculenta_v8",
+      "refseq": "GCF_001659605.2",
+      "genbank": "GCA_001659605.2",
+      "source_ids": [
+        "C01"
+      ],
+      "nuclear_chromosomes_in_haploid_representation": 18,
+      "organelles": 2,
+      "status": "Official registry identity assessed; no FASTA/GFF download or coordinate liftover performed."
+    },
+    {
+      "cultivar": "TME204",
+      "haplotype": "H1",
+      "genbank": "GCA_020916445.1",
+      "bioproject": "PRJNA758616",
+      "assembly_name": "hifiasm152_l3.hic.hap1.p_ctg",
+      "registry_diploid_role": "alternate_pseudohaplotype_of_diploid",
+      "source_ids": [
+        "C02"
+      ],
+      "nuclear_chromosomes_in_haploid_representation": 18
+    },
+    {
+      "cultivar": "TME204",
+      "haplotype": "H2",
+      "genbank": "GCA_020916425.1",
+      "bioproject": "PRJNA758615",
+      "assembly_name": "hifiasm152_l3.hic.hap2.p_ctg",
+      "registry_diploid_role": "principal_pseudohaplotype_of_diploid",
+      "source_ids": [
+        "C02"
+      ],
+      "nuclear_chromosomes_in_haploid_representation": 18
+    }
+  ],
+  "claim_map": [
+    {
+      "claim_id": "CAS01",
+      "claim": "Model cultivated cassava as a diploid with n=18, 2n=36; a phased assembly has two haplotypes of the same cultivar.",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "support": "Primary diploid assembly and 18 chromosome-pair table, independently matched to registry identities.",
+      "scope_limit": "Not every Manihot accession or induced polyploid; no direct karyotyping in this project."
+    },
+    {
+      "claim_id": "CAS02",
+      "claim": "Separate additive merit for choosing crossing parents from total clonal value for choosing a vegetatively multiplied variety.",
+      "source_ids": [
+        "C03",
+        "C04"
+      ],
+      "support": "Primary cassava genomic models distinguish breeding value and total genetic value.",
+      "scope_limit": "If the simulator uses A+D, label omitted epistasis and target population/environment; do not equate phenotype with genetic value."
+    },
+    {
+      "claim_id": "CAS03",
+      "claim": "Sexual recombination generates new candidates; clonal multiplication preserves a selected genotype, subject to identity/health checks.",
+      "source_ids": [
+        "C03",
+        "C04",
+        "C07"
+      ],
+      "support": "Breeding/selection and breeder-to-commercial vegetative material have different roles.",
+      "scope_limit": "Do not transfer maize detasseling, male/female row ratios or commercial F1 seed-production assumptions."
+    },
+    {
+      "claim_id": "CAS04",
+      "claim": "Canopy UAV observations can predict root outcomes only against an independent harvest reference.",
+      "source_ids": [
+        "C05",
+        "C06"
+      ],
+      "support": "UAV study weighed roots; root-image study photographed harvested roots.",
+      "scope_limit": "No direct aerial view of roots, starch, cyanide, internal necrosis or pathogen identity. Appropriate harvest and laboratory assays remain required."
+    },
+    {
+      "claim_id": "CAS05",
+      "claim": "Match validation to the intended decision: new clones/families/environments and elapsed time require suitable holdouts.",
+      "source_ids": [
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "support": "Parent-wise, within-population and field-repetition tests answer different prediction questions.",
+      "scope_limit": "Published R-squared or variance estimates are not default simulation parameters."
+    },
+    {
+      "claim_id": "CAS06",
+      "claim": "Use traceable clean stock, nursery/early-generation multiplication and inspected commercial stem-cutting lots.",
+      "source_ids": [
+        "C07",
+        "C08",
+        "C09"
+      ],
+      "support": "Official breeder/foundation/certified chain plus pathogen indexing and traceability.",
+      "scope_limit": "Vietnam class names, release/registration requirements, assay panels and authority acceptance remain to be checked locally."
+    },
+    {
+      "claim_id": "CAS07",
+      "claim": "Disease scouting, genotype identity, laboratory pathogen status and harvested-root quality are separate records.",
+      "source_ids": [
+        "C05",
+        "C06",
+        "C08",
+        "C09"
+      ],
+      "support": "The underlying measurement and health-system roles differ.",
+      "scope_limit": "This is an evidence-based design requirement, not a validated disease diagnostic workflow or a declaration of Vietnamese pathogen prevalence."
+    },
+    {
+      "claim_id": "CAS08",
+      "claim": "Use flowering, seed set, clonal evaluation and multiplication as event-defined stages without invented durations or empirical variance.",
+      "source_ids": [
+        "C06",
+        "C07",
+        "C10"
+      ],
+      "support": "Documented biological/operational stages provide a framework.",
+      "scope_limit": "Local durations, survival, multiplication ratios, costs and covariance components require observations or explicit scenario labels."
+    }
+  ],
+  "imported_empirical_parameter_values": {},
+  "stage_durations_assumed": null,
+  "full_source_assessments_claimed": false,
+  "author_review_complete": false,
+  "open_requirements": [
+    "Freeze matching FASTA/GFF/version/checksum before any real variant or genomic-coordinate analysis.",
+    "Obtain Vietnamese cassava target-product profiles, environment/management observations, trial pedigree/genotypes and harvest/laboratory outcomes.",
+    "Verify local release, nursery/multiplication and planting-material health/certification requirements with current authoritative sources.",
+    "Fit variance/covariance, genotype-by-environment and observation-error models from suitable data or identify every numerical input as a scenario."
+  ],
+  "files_outside_references_modified": false
+}

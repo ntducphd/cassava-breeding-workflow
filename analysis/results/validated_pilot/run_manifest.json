@@ -1,0 +1,13 @@
+{
+  "data_status": "SYNTHETIC_NOT_FIELD_OBSERVATIONS",
+  "replicates": 8,
+  "cycles": 2,
+  "crops": [
+    "cassava"
+  ],
+  "seconds": 58.94,
+  "config_sha256": "f8fa0925296767c24224349531f683453dc37ea1bb0b14b0a09a48354033a5f2",
+  "engine_sha256": "b6816ac1f4e1f61d4141d56756194cf11720c46276f8aa7af86308c15a3809bc",
+  "programme_sha256": "225b35279ecd867e3b75558804308c13d7f7833810eebdaaaf18af787682f94c",
+  "interpretation": "Monte Carlo programme-design experiment; uncalibrated parameters, no commercial superiority or realised field genetic gain claimed."
+}

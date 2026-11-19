@@ -1,0 +1,16 @@
+{
+  "engine": "AlphaSimR",
+  "version": "2.1.0",
+  "cycle": 1,
+  "seed": 20262127,
+  "n_genotypes": 96,
+  "chromosomes": 18,
+  "ploidy": 2,
+  "markers": 432,
+  "qtl_per_trait": 216,
+  "qtl_marker_overlap": 0,
+  "founder_model": "synthetic Markov-block haplotypes",
+  "reference_scaling": "initial cohort fixed across cycles",
+  "genetic_map": "synthetic Morgans; not physical assembly coordinates",
+  "R_version": "R version 4.4.3 (2025-02-28 ucrt)"
+}

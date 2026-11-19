@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cassava-breeding-workflow"
+version = "2.0.0"
+description = "Synthetic cassava breeding and selected-clone management workflow"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Nguyen Trung Duc"}]
+dependencies = ["numpy==2.5.5", "pandas==3.1.1", "scipy==1.18.1", "scikit-learn==1.9.1", "threadpoolctl==3.8.0", "openpyxl==3.1.5"]
+
+[project.optional-dependencies]
+test = ["pytest==9.2.0"]
+
+[project.urls]
+Repository = "https://github.com/ntducphd/cassava-breeding-workflow"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+uavbreed = ["*.R"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+cache_dir = "analysis/.pytest_cache"

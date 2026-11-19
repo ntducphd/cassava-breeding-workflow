@@ -1,0 +1,58 @@
+{
+  "study": "Cassava review companion: clonal breeding and management",
+  "data_status": "SYNTHETIC_NOT_FIELD_OBSERVATIONS",
+  "seed": 20261117,
+  "replicates": 8,
+  "cycles": 2,
+  "sites": 3,
+  "harvests": 3,
+  "field_replicates": 2,
+  "management_levels": 2,
+  "strategies": [
+    "field",
+    "genomic",
+    "genomic_uav"
+  ],
+  "selection_fraction": 0.2,
+  "parent_count": 12,
+  "genetics": {
+    "founders": 64,
+    "families": 16,
+    "progeny_per_family": 6,
+    "maize_pool_size": 12,
+    "sites_per_chr": 64,
+    "qtl_per_chr": 12,
+    "markers_per_chr": 24,
+    "ld_block_morgan": 0.08,
+    "mean_dominance_degree": 0.3,
+    "variance_dominance_degree": 0.1
+  },
+  "phenotyping": {
+    "sensor_noise_sd": 0.2,
+    "missing_probability": 0.08,
+    "residual_sd": 0.65,
+    "early_fraction_of_season": 0.45
+  },
+  "management": {
+    "training_fields": 600,
+    "test_fields": 1000,
+    "treatment_cost_yield_units": 0.3,
+    "nonresponse_rate": 0.25
+  },
+  "crops": {
+    "cassava": {
+      "species": "Manihot esculenta",
+      "chromosomes": 18,
+      "map_morgan": 1.0,
+      "product": "clonal candidate and additive parent index",
+      "mean_yield": 28.0,
+      "yield_scale": 5.0,
+      "yield_unit": "t fresh roots per ha; synthetic",
+      "quality_name": "root dry matter percent",
+      "quality_mean": 33.0,
+      "quality_scale": 3.0,
+      "cycle_years_assumed": 5,
+      "bearing_cohort_only": false
+    }
+  }
+}

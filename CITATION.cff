@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this version when using the code or synthetic outputs."
+type: software
+title: "Cassava breeding and genotype-management workflow"
+authors:
+  - family-names: Nguyen
+    given-names: Trung Duc
+version: 2.0.0
+date-released: 2026-11-19
+license: MIT
+repository-code: "https://github.com/ntducphd/cassava-breeding-workflow"
+url: "https://github.com/ntducphd/cassava-breeding-workflow/tree/v2.0.0"
+abstract: "Python/R simulation of cassava parental recycling, clonal prediction and selected-clone management, with recorded synthetic outputs and an operational breeding-workflow assessment."
+keywords:
+  - cassava
+  - plant breeding
+  - genomic prediction
+  - UAV phenotyping
+  - simulation

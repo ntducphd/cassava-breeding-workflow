@@ -1,0 +1,22 @@
+name: Verify software and Supplementary Table S6
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements.lock.txt
+      - run: python -m pip install -r requirements.lock.txt
+      - run: python -m pip install --no-deps -e .
+      - run: python -I -X utf8 -m pytest -q
+      - run: python -I -X utf8 verify_release.py
+      - run: python -I -X utf8 scripts/reproduce_s6.py --programme-root . --output analysis/reproduced_s6
+      - run: python -I -X utf8 audit_workflow.py
